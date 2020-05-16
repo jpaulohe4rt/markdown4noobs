@@ -9,15 +9,10 @@
   O propósito desse repositório, além de contribuir para o projeto <a href="https://github.com/he4rt/4noobs">4noobs</a>, é ensinar o básico de Markdown para iniciantes para poderem aplicar em diversos projetos dando uma cara melhor ao README.md ou ao que for.
 </p>
 
-## Introdução
-1. [Historia](/Guia/1-Historia.md)
+## Guia
+1. [História](/Guia/1-Historia.md)
 2. [Ambiente](/Guia/2-Ambiente.md)
-
-## Básico
-1. [Titulo](/Guia/Titulos.md)
-2. [Imagens](/Guia/Imagens.md)
-3. [Links](/Guia/Links.md)
-4. [Ênfase](/Guia/Enfase.md)
+3. [Cheatsheet](/Guia/Cheatsheet.md)
 
 
 ## Como Contribuir
