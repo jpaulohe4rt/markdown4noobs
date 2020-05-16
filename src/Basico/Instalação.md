@@ -29,3 +29,5 @@ sudo pacman -S code
 ```
 sudo pacman -S atom
 ```
+
+[Voltar para o inicio](../README.md)

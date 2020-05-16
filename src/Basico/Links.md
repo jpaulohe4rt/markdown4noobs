@@ -24,3 +24,5 @@
 [Eu sou um link](https://google.com)
 [Eu sou um link pra um arquivo](../master/README.md)
 [Eu sou um link com titulo](https://google.com "Google")
+
+[Voltar para o inicio](../README.md)
