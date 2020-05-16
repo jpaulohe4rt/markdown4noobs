@@ -1,7 +1,8 @@
 # Glossário
 1. [Headers - Cabeçalhos](#Headers-Cabeçalhos)
 2. [Links](#Links)
-2. [Imagens](#Imagens)
+3. [Imagens](#Imagens)
+4. [Ênfase](#Ênfase)
 
 
 <h1 align="center">Headers - Cabeçalhos</h1>
@@ -90,7 +91,7 @@ Links também são muito importante se você quer deixar site de referências, l
 ## Veja como fazer:
 
 [Eu sou um link](https://google.com)<br>
-[Eu sou um link pra um arquivo](../master/README.md)<br>
+[Eu sou um link pra um arquivo](../README.md)<br>
 [Eu sou um link com titulo(coloque o mouse em cima)](https://www.google.com/ "Google")<br>
 ```
 Markdown:
@@ -102,7 +103,7 @@ Markdown:
 
 HTML:
 <a href="https://google.com">Eu sou um link</a>
-<a href="../master/README.md">Eu sou um link pra um arquivo</a>
+<a href="../README.md">Eu sou um link pra um arquivo</a>
 <a href="https://google.com "Google"">Eu sou um link com titulo</a>
 ```
     
