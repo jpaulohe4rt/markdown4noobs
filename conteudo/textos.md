@@ -15,18 +15,28 @@
 
 <p> Dentre dessas duas opções, para iniciantes eu recomendo o Markdown pois é o mais simples de ser manuseado e compreendido, para aqueles que desejam de algo mais profissional e já tem um conhecimento prévio de HTML recomendo a segunda opção. Nesse projeto, só será mostrado o Markdown básico </p>
 
-<h4> Headers </h4>
-<p> Headers é como se fossem os títulos do seu conteúdo </p>
+# Headers - Cabeçalhos 
+<p> É você pode usar de com a tag <h1></h1> do html ou com # como no exemplo a seguir:</p>
 
+
+Em html
+```html
 <h1> h1 </h1>
 <h2> h2 </h2>
 <h3> h3 </h3>
 <h4> h4 </h4>
 <h5> h5 </h5>
 <h6> h6 </h6>
-
-<img src="https://i.gyazo.com/5db7158c877844f573c1f1fead27a28b.png" alt="headers">
-
+```
+Em markdown
+```markdown
+  # Cabeçalho
+  ## Cabeçalho
+  ### Cabeçalho
+  #### Cabeçalho
+  ##### Cabeçalho
+  ###### Cabeçalho
+```
 <br>
 
 <h4> Ênfase </h4>
