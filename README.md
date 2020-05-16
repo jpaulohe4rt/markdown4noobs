@@ -5,18 +5,19 @@
 <h1 align="center">
   <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-512.png" alt="Markdown Icon" width="120px" height="120px">
 </h1>
-
-O propósito desse repositório, além de contribuir para o projeto [4noobs](https://github.com/he4rt/4noobs), é ensinar o básico de Markdown para iniciantes para poderem aplicar em diversos projetos dando uma cara melhor ao README.md ou ao que for.
+<p align="center">
+  O propósito desse repositório, além de contribuir para o projeto <a href="https://github.com/he4rt/4noobs">4noobs</a>, é ensinar o básico de Markdown para iniciantes para poderem aplicar em diversos projetos dando uma cara melhor ao README.md ou ao que for.
+</p>
 
 ## Introdução
-1. [Ambiente](/Introducao/1-Ambiente.md)
-2. [Historia](/Introducao/2-Historia.md)
+1. [Ambiente](/Guia/1-Ambiente.md)
+2. [Historia](/Guia/2-Historia.md)
 
 ## Básico
-1. [Titulo](/Introducao/Titulos.md)
-2. [Imagens](/Introducao/Imagens.md)
-3. [Links](/Introducao/Links.md)
-4. [Ênfase](/Introducao/Enfase.md)
+1. [Titulo](/Guia/Titulos.md)
+2. [Imagens](/Guia/Imagens.md)
+3. [Links](/Guia/Links.md)
+4. [Ênfase](/Guia/Enfase.md)
 
 
 ## Como Contribuir
