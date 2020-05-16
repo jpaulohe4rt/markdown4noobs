@@ -10,8 +10,8 @@
 </p>
 
 ## Introdução
-1. [Ambiente](/Guia/1-Ambiente.md)
-2. [Historia](/Guia/2-Historia.md)
+1. [Historia](/Guia/1-Historia.md)
+2. [Ambiente](/Guia/2-Ambiente.md)
 
 ## Básico
 1. [Titulo](/Guia/Titulos.md)
