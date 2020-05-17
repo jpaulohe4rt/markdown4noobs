@@ -31,5 +31,6 @@ são **extremamente apreciadas**
 - **João Paulo Lima (jpaulohe4rt)** - _Developer & Member of He4rt Developers_  - [Twitter](https://twitter.com/jpaulohe4rt), [Linkedin](https://www.linkedin.com/in/jo%C3%A3o-paulo-lima-da-silva-a0a183198/)
 - **Daniel Moura (dsm)** - [Twitter](https://twitter.com/dsm_uix) Discord: dsm#2569
 - **Gustavo Lins (freazesss)** - [GitHub](https://github.com/freazesss), [Twitter](https://twitter.com/freazesss)
+- **Eduardo Cabral (EduardoFerro)** - _Developer & Member of He4rt Developers_  - [Twitter](https://twitter.com/eduardoferro_), [GitHub](https://github.com/ferroeduardo)
 
 #### Feito com o 💜.

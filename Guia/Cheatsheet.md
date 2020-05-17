@@ -3,6 +3,9 @@
 2. [Links](#Links)
 3. [Imagens](#Imagens)
 4. [Ênfase](#Ênfase)
+5. [Quebra de Linha](#Quebra-de-Linha)
+6. [Parágrafo](#Parágrafo)
+7. [Blackquotes](#Blackquotes)
 
 
 <h1 align="center">Headers - Cabeçalhos</h1>
@@ -90,9 +93,9 @@ Links também são muito importante se você quer deixar site de referências, l
 
 ## Veja como fazer:
 
-[Eu sou um link](https://google.com)<br>
-[Eu sou um link pra um arquivo](../README.md)<br>
-[Eu sou um link com titulo(coloque o mouse em cima)](https://www.google.com/ "Google")<br>
+[Eu sou um link](https://google.com)  
+[Eu sou um link pra um arquivo](../README.md)  
+[Eu sou um link com titulo(coloque o mouse em cima)](https://www.google.com/ "Google")  
 ```
 Markdown:
 [Eu sou um link](https://google.com)
@@ -121,7 +124,7 @@ A estrutura do Markdown para inserir imagens é:
 ```
 ![Texto alternativo caso imagem não esteja disponível](link_da_imagem)
 ```
-Exemplo:<br>
+Exemplo:  
 ![He4rt Developers](https://avatars0.githubusercontent.com/u/47680810?s=150)
 
 Se quiser mais flexibilidade quanto ao formato da imagem, é possível utilizar HTML:
@@ -161,6 +164,7 @@ Eu amo a **He4rtDevelopers**
 ```
 Markdown:
 Eu amo a **He4rtDevelopers**
+Eu amo a __He4rtDevelopers__
 
 ----------------
 
@@ -168,12 +172,29 @@ HTML:
 Eu amo a <strong>He4rtDevelopers</strong>
 ```
 
-### _Itálico_
+### *Itálico*
 
-Eu amo a _He4rtDevelopers_
+Eu amo a *He4rtDevelopers*
 ```
 Markdown:
+Eu amo a *He4rtDevelopers*
 Eu amo a _He4rtDevelopers_
+
+----------------
+
+HTML:
+Eu amo a <em>He4rtDevelopers</em>
+```
+
+### ***Negrito*** e ***Itálico***
+
+Eu amo a ***He4rtDevelopers***
+```
+Markdown:
+Eu amo a ***He4rtDevelopers***
+Eu amo a ___He4rtDevelopers___
+Eu amo a __*He4rtDevelopers*__
+Eu amo a **_He4rtDevelopers_**
 
 ----------------
 
@@ -192,5 +213,180 @@ Eu amo a ~~He4rtDevelopers~~
 HTML:
 Eu amo a <strike>He4rtDeveloper<strike>
 ```
+    
+<hr>
+    
+<h1 align="center">Quebra de Linha</h1>
+
+Assim como a tag **`<br>`**, do HTML que faz uma quebra de linha, o Markdown também possui essa característica.  
+Para isso é necessário deixar dois "espaços" no final da linha que deseja "quebrar".
+    
+<hr>
+
+## Veja como fazer:
+### Exemplo *SEM* quebra se linha
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Pharetra vel turpis nunc eget. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.
+```
+Markdown:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Pharetra vel turpis nunc eget.
+```  
+
+
+### Exemplo *COM* quebra se linha
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+Pharetra vel turpis nunc eget. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.  
+```
+Markdown:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+Pharetra vel turpis nunc eget.  
+
+----------------
+
+HTML:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+Pharetra vel turpis nunc eget.<br>
+```
+    
+<hr>
+    
+<h1 align="center">Parágrafo</h1>
+
+Para criar um parágrafo novo, é necessário deixar uma linha em branco entre os dois parágrafos. Já no HTML, utiliza-se a tag `<p>[TEXTO]</p>`.
+    
+<hr>
+
+## Veja como fazer:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Neque ornare aenean euismod elementum nisi quis eleifend. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.
+```
+Markdown:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Neque ornare aenean euismod elementum nisi quis eleifend. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.
+
+----------------
+
+HTML:
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Neque ornare aenean euismod elementum nisi quis eleifend. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.</p>
+```
+
+## Veja como *NÃO* fazer:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Neque ornare aenean euismod elementum nisi quis eleifend. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.
+```
+Markdown:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Neque ornare aenean euismod elementum nisi quis eleifend. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.
+
+----------------
+
+HTML:
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Neque ornare aenean euismod elementum nisi quis eleifend. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.</p>
+```
+    
+<hr>
+    
+<h1 align="center">Blackquotes</h1>
+
+Segundo a documentação de HTML da Mozilla: "O Elemento HTML `<blockquote>` (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação."
+    
+<hr>
+
+## Veja como fazer:
+> Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
+
+```
+Markdown:
+> Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
+
+----------------
+
+HTML:
+<blockquote>
+  <p>Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.</p>
+</blockquote>
+```
+
+## Também é Possivel Aninhar os Blockquotes(Nested Blockquotes)
+> Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
+>
+>> Turpis egestas pretium aenean pharetra magna.
+
+```
+Markdown:
+> Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
+>
+>> Turpis egestas pretium aenean pharetra magna.
+
+----------------
+
+HTML:
+<blockquote>
+  <p>Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.</p>
+  <blockquote>
+    <p>Turpis egestas pretium aenean pharetra magna.</p>
+  </blockquote>
+</blockquote>
+```
+
+## Blackquotes Também Podem Possuir Multiplos Parágrafos
+> Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
+>
+> Turpis egestas pretium aenean pharetra magna.
+
+```
+Markdown:
+> Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
+>
+> Turpis egestas pretium aenean pharetra magna.
+
+----------------
+
+HTML:
+<blockquote>
+  <p>Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.</p>
+  <p>Turpis egestas pretium aenean pharetra magna.</p>
+</blockquote>
+```
+
+## Blackquotes podem conter outros elementos de Markdown
+> ### Lorem ipsum
+> 1. He4rt
+> 2. Developers
+>> 4noobs
+
+```
+Markdown:
+> ### Lorem ipsum
+> 1. He4rt
+> 2. Developers
+>> 4noobs
+
+----------------
+
+HTML:
+<blockquote>
+    <h3>Lorem ipsum</h3>
+    <ol>
+        <li>He4rt</li>
+        <li>Developers</li>
+    </ol>
+    <blockquote>
+        <p>4noobs</p>
+    </blockquote>
+</blockquote>
+```
+
+
+
+
+<hr>
 
 [Voltar para o inicio](../README.md)
