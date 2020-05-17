@@ -19,71 +19,31 @@
 ## Veja como fazer:
 
 # Header/Cabeçalho 1
-```
-Markdown:
-# Texto
-
-----------------
-
-HTML:
-<h1> Texto </h1>
-```
-
 ## Header/Cabeçalho 2
-```
-Markdown:
-## Texto
-
-----------------
-
-HTML:
-<h2> Texto </h2>
-```
-
 ### Header/Cabeçalho 3
-```
-Markdown:
-### Texto
-
-----------------
-
-HTML:
-<h3> Texto </h3>
-```
-
 #### Header/Cabeçalho 4
-
-```
-Markdown:
-#### Texto
-
-----------------
-
-HTML:
-<h4> Texto </h4>
-```
-
 ##### Header/Cabeçalho 5
-```
-Markdown:
-##### Texto
-
-----------------
-
-HTML:
-<h5> Texto </h5>
-```
-
 ###### Header/Cabeçalho 6
 ```
 Markdown:
-###### Texto
+# Header/Cabeçalho 1
+## Header/Cabeçalho 2
+### Header/Cabeçalho 3
+#### Header/Cabeçalho 4
+##### Header/Cabeçalho 5
+###### Header/Cabeçalho 6
 
 ----------------
 
 HTML:
-<h6> Texto </h6>
+<h1> Header/Cabeçalho 1 </h1>
+<h2> Header/Cabeçalho 2 </h2>
+<h3> Header/Cabeçalho 3 </h3>
+<h4> Header/Cabeçalho 4 </h4>
+<h5> Header/Cabeçalho 5 </h5>
+<h6> Header/Cabeçalho 6 </h6>
 ```
+
     
 <hr>
     
@@ -115,8 +75,6 @@ HTML:
 <hr>
     
 <h1 align="center">Imagens</h1>
-
-Colocar imagens ou gifs no seu projeto pode torna-lo mais interessante, pode ser algo que lembre o seu projeto, como uma referência ou até mesmo uma foto dele.
     
 <hr>
 
@@ -227,29 +185,28 @@ Para isso é necessário deixar dois "espaços" no final da linha que deseja "qu
 
 ## Veja como fazer:
 ### Exemplo *SEM* quebra de linha
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Pharetra vel turpis nunc eget. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.
 ```
 Markdown:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Pharetra vel turpis nunc eget.
 ```  
 
 
 ### Exemplo *COM* quebra de linha
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+Pharetra vel turpis nunc eget. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.  
 ```
 Markdown:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+Pharetra vel turpis nunc eget.  
 
 ----------------
 
 HTML:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+Pharetra vel turpis nunc eget.<br>
 ```
     
 <hr>
@@ -427,14 +384,14 @@ Mesmo que o número dos índices do markdown estejam incorretos, é exibido a or
 Exemplo:  
 1. Primeiro item
 3. Segundo item
-    4. Primeiro item indentado
+    1. Primeiro item indentado
 2. Terceiro item
 
 ```
 Markdown:
 1. Primeiro item
 3. Segundo item
-    4. Primeiro item indentado
+    1. Primeiro item indentado
 2. Terceiro item
 ```
 
@@ -474,7 +431,7 @@ HTML:
 
 ### Observações:
 
-Também é possivel utilizar, além do `-`, os símbolos `+`, `*`. Contudo, se combinado de forma incorreta, pode ter resultados indesejados.
+Também é possivel utilizar, além do `-`, os símbolos `+` e `*`. Contudo, se combinado de forma incorreta, pode ter resultados indesejados.
 * Primeiro item
 * Segundo item
     + Primeiro item indentado
