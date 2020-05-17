@@ -185,28 +185,28 @@ Para isso é necessário deixar dois "espaços" no final da linha que deseja "qu
 
 ## Veja como fazer:
 ### Exemplo *SEM* quebra de linha
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Pharetra vel turpis nunc eget. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.
+Lorem ipsum dolor sit amet.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```
 Markdown:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Pharetra vel turpis nunc eget.
+Lorem ipsum dolor sit amet.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```  
 
 
 ### Exemplo *COM* quebra de linha
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-Pharetra vel turpis nunc eget. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.  
+Lorem ipsum dolor sit amet.  
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 ```
 Markdown:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-Pharetra vel turpis nunc eget.  
+Lorem ipsum dolor sit amet.  
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.   
 
 ----------------
 
 HTML:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-Pharetra vel turpis nunc eget.<br>
+Lorem ipsum dolor sit amet.<br>
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
 ```
     
 <hr>
