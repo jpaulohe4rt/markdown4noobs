@@ -1,4 +1,4 @@
-# Glossário
+# Sumário
 1. [Headers - Cabeçalhos](#Headers-Cabeçalhos)
 2. [Links](#Links)
 3. [Imagens](#Imagens)
@@ -6,6 +6,8 @@
 5. [Quebra de Linha](#Quebra-de-Linha)
 6. [Parágrafo](#Parágrafo)
 7. [Blackquotes](#Blackquotes)
+8. [Lista Ordenadas](#Lista-Ordenadas)
+9. [Lista Desordenadas](#Lista-Desordenadas)
 
 
 <h1 align="center">Headers - Cabeçalhos</h1>
@@ -383,10 +385,109 @@ HTML:
     </blockquote>
 </blockquote>
 ```
+    
+<hr>
+    
+<h1 align="center">Lista Ordenadas</h1>
 
+Como o nome deixa explícito, é possível criar listas ordenadas numericamente.
 
+<hr>
 
+## Veja como fazer:
+1. Primeiro item
+2. Segundo item
+    1. Primeiro item indentado
+3. Terceiro item
 
+```
+Markdown:
+1. Primeiro item
+2. Segundo item
+    1. Primeiro item indentado
+3. Terceiro item
+
+----------------
+
+HTML:
+<ol>
+    <li>Primeiro item</li>
+    <li>Segundo item</li>
+    <ol>
+        <li>Primeiro item indentado</li>
+    </ol>
+    <li>Terceiro item</li>
+</ol>
+```
+
+### Observações:
+
+Mesmo que o número dos índices do markdown estejam incorretos, é exibido a ordem da forma correta.  
+Exemplo:  
+1. Primeiro item
+3. Segundo item
+    4. Primeiro item indentado
+2. Terceiro item
+
+```
+Markdown:
+1. Primeiro item
+3. Segundo item
+    4. Primeiro item indentado
+2. Terceiro item
+```
+
+<hr>
+    
+<h1 align="center">Lista Desordenadas</h1>
+
+Como o nome deixa explícito, é possível criar listas desordenadas.
+
+<hr>
+
+## Veja como fazer:
+
+- Primeiro item
+- Segundo item
+    - Primeiro item indentado
+- Terceiro item
+```
+Markdown:
+- Primeiro item
+- Segundo item
+    - Primeiro item indentado
+- Terceiro item
+
+----------------
+
+HTML:
+<ul>
+    <li>Primeiro item</li>
+    <li>Segundo item</li>
+    <ul>
+        <li>Primeiro item indentado</li>
+    </ul>
+    <li>Terceiro item</li>
+</ul>
+```
+
+### Observações:
+
+Também é possivel utilizar, além do `-`, os símbolos `+`, `*`. Contudo, se combinado de forma incorreta, pode ter resultados indesejados.
+* Primeiro item
+* Segundo item
+    + Primeiro item indentado
+- Terceiro item
+
+```
+Markdown:
+* Primeiro item
+* Segundo item
+    + Primeiro item indentado
+- Terceiro item
+```
+
+<hr>
 <hr>
 
 [Voltar para o inicio](../README.md)
