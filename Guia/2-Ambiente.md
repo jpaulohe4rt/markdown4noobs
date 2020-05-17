@@ -1,6 +1,6 @@
 # Ambiente
 
-Bom, como o "markdown" não é uma linguagem de programação e, assim como o **HTML**, é sim uma simples ***linguagem de marcação***.
+Bom, como o "markdown" não é uma linguagem de programação e, assim como o **HTML**, e sim uma simples ***linguagem de marcação***.
 
 Não é necessário a instalação de qualquer software, visto que é possível escrever códigos em **markdown** em editores online.
 

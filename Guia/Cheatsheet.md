@@ -116,7 +116,7 @@ HTML:
     
 <h1 align="center">Imagens</h1>
 
-Colocar imagens ou gifs no seu projeto pode torna-lo mais interessante, pode ser algo que lembre o seu projeto como uma referência ou até mesmo uma foto dele.
+Colocar imagens ou gifs no seu projeto pode torna-lo mais interessante, pode ser algo que lembre o seu projeto, como uma referência ou até mesmo uma foto dele.
     
 <hr>
 
@@ -155,7 +155,7 @@ Vamos utilizar a imagem localizada aqui: `imgs/logo-he4rt.png`
     
 <h1 align="center">Ênfase</h1>
 
-Você pode adicionar ênfase com negrito,itálico e riscado
+Você pode adicionar ênfase como: negrito, itálico e riscado.
     
 <hr>
 
@@ -226,29 +226,30 @@ Para isso é necessário deixar dois "espaços" no final da linha que deseja "qu
 <hr>
 
 ## Veja como fazer:
-### Exemplo *SEM* quebra se linha
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Pharetra vel turpis nunc eget. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.
+### Exemplo *SEM* quebra de linha
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 ```
 Markdown:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Pharetra vel turpis nunc eget.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ```  
 
 
-### Exemplo *COM* quebra se linha
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-Pharetra vel turpis nunc eget. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.  
+### Exemplo *COM* quebra de linha
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 ```
 Markdown:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-Pharetra vel turpis nunc eget.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 
 ----------------
 
 HTML:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-Pharetra vel turpis nunc eget.<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
 ```
     
 <hr>
