@@ -446,6 +446,51 @@ Markdown:
 ```
 
 <hr>
+
+<h1 align="center">Tabela</h1> 
+
+
+Você também pode implementar tabelas em seu markdown. Apenas adicionando três ou mais hífens (---) para criar o cabeçalho da tabela e barra vertical  (|) para separar as colunas.
+
+<hr>
+
+## Veja como fazer isso:
+
+|Nome|Idade| Profissão|
+|---| ---| ---| 
+|João|18|Desenvolvedor|
+|Mario|20|Empresario|
+
+Em HTML:
+```html
+<table>
+    <tr>
+        <td>Nome</td>
+        <td>Idade</td>
+        <td>Profissão</td>
+    </tr>
+    <tr>
+        <td>João</td>
+        <td>18</td>
+        <td>Desenvolvedor</td>
+    </tr>
+    <tr>
+        <td>Mario</td>
+        <td>20</td>
+        <td>Empresario</td>
+    </tr>
+</table>
+```
+Markdown:
+
+```markdown
+|Nome|Idade| Profissão|
+|---| ---| ---| 
+|João|18|Desenvolvedor|
+|Mario|20|Empresario|
+```
+
+<hr>
 <hr>
 
 [Voltar para o inicio](../README.md)
