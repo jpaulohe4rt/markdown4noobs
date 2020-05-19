@@ -8,6 +8,8 @@
 7. [Blackquotes](#Blackquotes)
 8. [Lista Ordenadas](#Lista-Ordenadas)
 9. [Lista Desordenadas](#Lista-Desordenadas)
+10. [Tabela](#Tabela)
+11. [Alinhamento de Texto na Tabela](#Alimento-Tabela)
 
 
 <h1 align="center">Headers - Cabeçalhos</h1>
@@ -486,6 +488,26 @@ Markdown:
 ```markdown
 |Nome|Idade| Profissão|
 |---| ---| ---| 
+|João|18|Desenvolvedor|
+|Mario|20|Empresario|
+```
+<hr>
+<h1 align="center">Alinhamento Tabela</h1>
+
+Você pode alinhar o texto nas colunas para a direita, esquerda ou centro. basta adicionar dois pontos (:) à esquerda, direita ou dos dois lados nas linhas de hífens na linha do cabeçalho.
+
+## Veja como fazer isso:
+
+|Nome|Idade| Profissão|
+|:---| :---: | ---:| 
+|João|18|Desenvolvedor|
+|Mario|20|Empresario|
+
+Markdown:
+
+```markdown
+|Nome|Idade| Profissão|
+|:---| :---: | ---:| 
 |João|18|Desenvolvedor|
 |Mario|20|Empresario|
 ```
