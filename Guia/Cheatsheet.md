@@ -9,7 +9,7 @@
 8. [Lista Ordenadas](#Lista-Ordenadas)
 9. [Lista Desordenadas](#Lista-Desordenadas)
 10. [Tabela](#Tabela)
-11. [Alinhamento de Texto na Tabela](#Alimento-Tabela)
+11. [Alinhamento em Tabela](#Alinhamento-Tabela)
 
 
 <h1 align="center">Headers - Cabeçalhos</h1>
@@ -511,6 +511,22 @@ Markdown:
 |João|18|Desenvolvedor|
 |Mario|20|Empresario|
 ```
+<hr>
+
+<h1 align="center">Emoji</h1>
+
+Para adicionar emoticons em seu arquivo basta copiar e colar o emoji no arquivo do Markdown ou digitar o código do emoji.
+
+Procure emojis no [Emojipedia](https://emojipedia.org/)
+
+## Veja como fazer isso:
+
+He4rt Developers :purple_heart:
+
+```markdown
+    He4rt Developers :purple_heart:
+```
+
 
 <hr>
 <hr>
