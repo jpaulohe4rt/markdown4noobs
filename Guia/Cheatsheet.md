@@ -12,7 +12,7 @@
 11. [Alinhamento em Tabela](#Alinhamento-Tabela)
 12. [Emoji](#Emoji)
 13. [Lista de Tarefas](#Lista-de-Tarefas)
-
+14. [Código](#Código)
 
 <h1 align="center">Headers - Cabeçalhos</h1>
 
@@ -61,12 +61,14 @@ Links também são muito importante se você quer deixar site de referências, l
 
 [Eu sou um link](https://google.com)  
 [Eu sou um link pra um arquivo](../README.md)  
-[Eu sou um link com titulo(coloque o mouse em cima)](https://www.google.com/ "Google")  
+[Eu sou um link com titulo(coloque o mouse em cima)](https://www.google.com/ "Google")
+<https://heartdevs.com/>  
 ```
 Markdown:
 [Eu sou um link](https://google.com)
 [Eu sou um link pra um arquivo](../README.md)
 [Eu sou um link com titulo](https://google.com "Google")
+<https://heartdevs.com/>
 
 ----------------
 
@@ -74,6 +76,7 @@ HTML:
 <a href="https://google.com">Eu sou um link</a>
 <a href="../README.md">Eu sou um link pra um arquivo</a>
 <a href="https://google.com "Google"">Eu sou um link com titulo</a>
+<a href="https://heartdevs.com/>https://heartdevs.com/</a>
 ```
 Observações:
 
@@ -558,6 +561,51 @@ Em Markdown:
     - [ ] Tocar violão
     - [ ] Atualizar o site.
 
+```
+    
+<hr>
+    
+<h1 align="center">Código</h1>
+
+É possível inserir pedaços de código e destacar as sintaxes de alguma linguagem de programação específica altomaticamente.
+
+<hr>
+
+## Veja como fazer:
+Código na linguagem de programação C:
+```c
+#include <stdio.h>
+
+int main(void){
+    printf("Hello, World!");
+    return 0;
+}
+```
+
+```md
+Markdown:
+    ```c
+    #include <stdio.h>
+    
+    int main(void){
+        printf("Hello, World!");
+        return 0;
+    }
+    ```
+
+----------------
+
+HTML:
+<code>
+      #include <stdio.h><br>
+      <br>
+      int main(void){<br>
+          printf("Hello, World!");<br>
+          return 0;<br>
+      }<br>
+</code>
+
+Obs.: A tag <br> foi inserida pois, sem ela, o código ficaria todo em uma única linha.
 ```
  
 
