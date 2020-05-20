@@ -10,6 +10,8 @@
 9. [Lista Desordenadas](#Lista-Desordenadas)
 10. [Tabela](#Tabela)
 11. [Alinhamento em Tabela](#Alinhamento-Tabela)
+12. [Emoji](#Emoji)
+13. [Lista de Tarefas](#Lista-de-Tarefas)
 
 
 <h1 align="center">Headers - Cabeçalhos</h1>
@@ -73,7 +75,16 @@ HTML:
 <a href="../README.md">Eu sou um link pra um arquivo</a>
 <a href="https://google.com "Google"">Eu sou um link com titulo</a>
 ```
-    
+Observações:
+
+Para desabilitar um link em seu arquivo basta adicionar acento grave (`) assim:
+
+`www.heartdevs.com`
+ 
+Em Markdown:
+```markdown
+`www.heartdevs.com`
+```
 <hr>
     
 <h1 align="center">Imagens</h1>
@@ -523,10 +534,32 @@ Procure emojis no [Emojipedia](https://emojipedia.org/)
 
 He4rt Developers :purple_heart:
 
+Em Markdown:
+
 ```markdown
     He4rt Developers :purple_heart:
 ```
+<hr>
 
+<h1 align="center">Lista de Tarefas</h1>
+
+Para organizar as tarefas de seu arquivo em markdown é possível apenas utilizando um traço (-) e colchetes com um espaço na frente ([]) dos itens da sua lista de tarefas. Para deixar selecionado basta adicionar um x entre os colchetes ([X]).
+
+## Veja como fazer isso:
+
+- [x] Escrever o markdown4noobs
+- [ ] Tocar violão
+- [ ] Atualizar o site.
+
+Em Markdown:
+
+```markdown
+    - [x] Escrever o markdown4noobs
+    - [ ] Tocar violão
+    - [ ] Atualizar o site.
+
+```
+ 
 
 <hr>
 <hr>
