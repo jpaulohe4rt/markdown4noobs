@@ -1,4 +1,9 @@
+<p align="center">
+  <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-512.png" alt="Markdown Icon" width="300px" height="300px">
+</p>
+
 # Sumário
+
 1. [Headers - Cabeçalhos](#Headers-Cabeçalhos)
 2. [Links](#Links)
 3. [Imagens](#Imagens)
@@ -18,7 +23,7 @@
 
 > Os "headings" são como h no html, mas no "markdown" utilizamos #.
 
-<hr>
+----
 
 ## Veja como fazer:
 
@@ -49,7 +54,7 @@ HTML:
 ```
 
     
-<hr>
+----
     
 <h1 align="center">Links</h1>
 
@@ -88,12 +93,9 @@ Em Markdown:
 ```markdown
 `www.heartdevs.com`
 ```
-<hr>
+----
     
-<h1 align="center">Imagens</h1>
-    
-<hr>
-
+# Imagens
 ## Veja como fazer:
 
 A estrutura do Markdown para inserir imagens é:
@@ -125,13 +127,12 @@ Vamos utilizar a imagem localizada aqui: `imgs/logo-he4rt.png`
 ![He4rt Developers](../imgs/logo-he4rt.png)
 ```
     
-<hr>
     
-<h1 align="center">Ênfase</h1>
+# Ênfase
 
 Você pode adicionar ênfase como: negrito, itálico e riscado.
     
-<hr>
+----
 
 ## Veja como fazer:
 
@@ -190,14 +191,12 @@ HTML:
 Eu amo a <strike>He4rtDeveloper<strike>
 ```
     
-<hr>
-    
-<h1 align="center">Quebra de Linha</h1>
+# Quebra de Linha
 
 Assim como a tag **`<br>`**, do HTML que faz uma quebra de linha, o Markdown também possui essa característica.  
 Para isso é necessário deixar dois "espaços" no final da linha que deseja "quebrar".
     
-<hr>
+----
 
 ## Veja como fazer:
 ### Exemplo *SEM* quebra de linha
@@ -225,9 +224,9 @@ Lorem ipsum dolor sit amet.<br>
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
 ```
     
-<hr>
+----
     
-<h1 align="center">Parágrafo</h1>
+# Parágrafo
 
 Para criar um parágrafo novo, é necessário deixar uma linha em branco entre os dois parágrafos. Já no HTML, utiliza-se a tag `<p>[TEXTO]</p>`.
     
@@ -267,13 +266,11 @@ HTML:
 Neque ornare aenean euismod elementum nisi quis eleifend. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non.</p>
 ```
     
-<hr>
-    
-<h1 align="center">Blackquotes</h1>
+# Blackquotes
 
 Segundo a documentação de HTML da Mozilla: "O Elemento HTML `<blockquote>` (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação."
-    
-<hr>
+
+----    
 
 ## Veja como fazer:
 > Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
@@ -360,13 +357,12 @@ HTML:
 </blockquote>
 ```
     
-<hr>
-    
-<h1 align="center">Lista Ordenadas</h1>
 
+    
+# Lista Ordenadas
 Como o nome deixa explícito, é possível criar listas ordenadas numericamente.
 
-<hr>
+----
 
 ## Veja como fazer:
 1. Primeiro item
@@ -411,13 +407,12 @@ Markdown:
 2. Terceiro item
 ```
 
-<hr>
     
 <h1 align="center">Lista Desordenadas</h1>
 
 Como o nome deixa explícito, é possível criar listas desordenadas.
 
-<hr>
+----
 
 ## Veja como fazer:
 
@@ -461,14 +456,13 @@ Markdown:
 - Terceiro item
 ```
 
-<hr>
 
-<h1 align="center">Tabela</h1> 
+# Tabela
 
 
 Você também pode implementar tabelas em seu markdown. Apenas adicionando três ou mais hífens (---) para criar o cabeçalho da tabela e barra vertical  (|) para separar as colunas.
 
-<hr>
+----
 
 ## Veja como fazer isso:
 
@@ -477,7 +471,7 @@ Você também pode implementar tabelas em seu markdown. Apenas adicionando três
 |João|18|Desenvolvedor|
 |Mario|20|Empresario|
 
-Em HTML:
+## Em HTML:
 ```html
 <table>
     <tr>
@@ -497,7 +491,7 @@ Em HTML:
     </tr>
 </table>
 ```
-Markdown:
+## Markdown:
 
 ```markdown
 |Nome|Idade| Profissão|
@@ -527,7 +521,7 @@ Markdown:
 ```
 <hr>
 
-<h1 align="center">Emoji</h1>
+# Emoji
 
 Para adicionar emoticons em seu arquivo basta copiar e colar o emoji no arquivo do Markdown ou digitar o código do emoji.
 
@@ -563,13 +557,13 @@ Em Markdown:
 
 ```
     
-<hr>
+----
     
 <h1 align="center">Código</h1>
 
 É possível inserir pedaços de código e destacar as sintaxes de alguma linguagem de programação específica altomaticamente.
 
-<hr>
+----
 
 ## Veja como fazer:
 Código na linguagem de programação C:
@@ -609,7 +603,6 @@ Obs.: A tag <br> foi inserida pois, sem ela, o código ficaria todo em uma únic
 ```
  
 
-<hr>
-<hr>
+----
 
 [Voltar para o inicio](../README.md)
