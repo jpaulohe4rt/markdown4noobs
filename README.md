@@ -10,9 +10,9 @@
 </p>
 
 ## Guia
-1. [História](/Guia/1-Historia.md)
-2. [Ambiente](/Guia/2-Ambiente.md)
-3. [Cheatsheet](/Guia/Cheatsheet.md)
+- [História](/Guia/1-Historia.md)
+  - [Ambiente](/Guia/2-Ambiente.md)
+  - [Cheatsheet](/Guia/Cheatsheet.md)
 
 
 ## Como Contribuir

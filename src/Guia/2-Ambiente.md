@@ -37,5 +37,4 @@ Mas, se for de sua vontade, você pode utilizar **editores de texto** ou **IDEs*
 
 _____
 
-- [Voltar para o inicio](../README.md)
-- [Proximo](./Cheatsheet.md)
+- [Voltar para o inicio](../README.md), [Próxima Seção](./Cheatsheet.md)
