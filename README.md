@@ -11,8 +11,8 @@
 
 ## Guia
 - [História](src/Guia/1-Historia.md)
-  - [Ambiente](src/Guia/2-Ambiente.md)
-  - [Cheatsheet](src/Guia/Cheatsheet.md)
+- [Ambiente](src/Guia/2-Ambiente.md)
+- [Cheatsheet](src/Guia/Cheatsheet.md)
 
 
 ## Como Contribuir

@@ -28,12 +28,12 @@ Mas, se for de sua vontade, você pode utilizar **editores de texto** ou **IDEs*
 [Clique aqui para fazer o Download](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 
 # IDES
-### PyCharm
-<img src="https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png" width='120'>
+### JetBrains
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/JetBrains_Logo_2016.svg/1200px-JetBrains_Logo_2016.svg.png" width='120'>
 
-> Acredite ou não o Pycharm tem um live preview de markdown.
+> Acredite ou não as IDEs da Jetbrains possuem suporte a um live preview de markdown.
 
-[Clique aqui para fazer o Download](https://www.jetbrains.com/pt-br/pycharm/)
+[Clique aqui para mais detalhes](https://www.jetbrains.com/pt-br/products.html)
 
 _____
 
