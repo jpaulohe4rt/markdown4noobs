@@ -10,7 +10,6 @@
   <h1 align="center"><img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-512.png" alt="Imagem da linguagem" width="120"></h1>
   
   <p align="center">
-    <br />
     <a href="https://github.com/jpaulohe4rt/markdown4noobs/issues">Report Bug</a>
     ·
     <a href="https://github.com/jpaulohe4rt/markdown4noobs/issues">Request Feature</a>
