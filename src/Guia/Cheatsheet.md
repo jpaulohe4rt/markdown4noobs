@@ -605,4 +605,4 @@ Obs.: A tag <br> foi inserida pois, sem ela, o código ficaria todo em uma únic
 
 ----
 
-[Voltar para o inicio](../README.md)
+[Voltar para o inicio](/README.md)
