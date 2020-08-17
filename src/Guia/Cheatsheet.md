@@ -2,7 +2,7 @@
   <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-512.png" alt="Markdown Icon" width="300px" height="300px">
 </p>
 
-# Sumário
+<h1 align="center"> Sumário </h1>
 
 1. [Headers - Cabeçalhos](#headers---cabeçalhos)
 2. [Links](#Links)
@@ -19,7 +19,9 @@
 13. [Lista de Tarefas](#Lista-de-Tarefas)
 14. [Código](#Código)
 
-<h1 align="center">Headers - Cabeçalhos</h1>
+----
+
+# Headers - Cabeçalhos 
 
 > Os "headings" são como h no html, mas no "markdown" utilizamos #.
 
@@ -54,9 +56,9 @@ HTML:
 ```
 
     
-----
+
     
-<h1 align="center">Links</h1>
+# Links
 
 Links também são muito importante se você quer deixar site de referências, links alternativos e por ai vai
     
@@ -66,7 +68,7 @@ Links também são muito importante se você quer deixar site de referências, l
 
 [Eu sou um link](https://google.com)  
 [Eu sou um link pra um arquivo](../README.md)  
-[Eu sou um link com titulo(coloque o mouse em cima)](https://www.google.com/ "Google")
+[Eu sou um link com titulo(coloque o mouse em cima)](https://www.google.com/ "Google")  
 <https://heartdevs.com/>  
 ```
 Markdown:
@@ -93,9 +95,10 @@ Em Markdown:
 ```markdown
 `www.heartdevs.com`
 ```
-----
+
     
-# Imagens
+# Imagens 
+
 ## Veja como fazer:
 
 A estrutura do Markdown para inserir imagens é:
@@ -224,7 +227,6 @@ Lorem ipsum dolor sit amet.<br>
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
 ```
     
-----
     
 # Parágrafo
 
@@ -273,7 +275,7 @@ Segundo a documentação de HTML da Mozilla: "O Elemento HTML `<blockquote>` (ou
 ----    
 
 ## Veja como fazer:
-> Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
+ Pretium aenean pharetra magna ac. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
 
 ```
 Markdown:
@@ -408,7 +410,7 @@ Markdown:
 ```
 
     
-<h1 align="center">Lista Desordenadas</h1>
+# Lista Desordenadas
 
 Como o nome deixa explícito, é possível criar listas desordenadas.
 
@@ -499,8 +501,9 @@ Você também pode implementar tabelas em seu markdown. Apenas adicionando três
 |João|18|Desenvolvedor|
 |Mario|20|Empresario|
 ```
-<hr>
-<h1 align="center">Alinhamento Tabela</h1>
+
+
+# Alinhamento Tabela
 
 Você pode alinhar o texto nas colunas para a direita, esquerda ou centro. basta adicionar dois pontos (:) à esquerda, direita ou dos dois lados nas linhas de hífens na linha do cabeçalho.
 
@@ -519,7 +522,6 @@ Markdown:
 |João|18|Desenvolvedor|
 |Mario|20|Empresario|
 ```
-<hr>
 
 # Emoji
 
@@ -536,9 +538,8 @@ Em Markdown:
 ```markdown
     He4rt Developers :purple_heart:
 ```
-<hr>
 
-<h1 align="center">Lista de Tarefas</h1>
+# Lista de Tarefas
 
 Para organizar as tarefas de seu arquivo em markdown é possível apenas utilizando um traço (-) e colchetes com um espaço na frente ([]) dos itens da sua lista de tarefas. Para deixar selecionado basta adicionar um x entre os colchetes ([X]).
 
@@ -557,9 +558,8 @@ Em Markdown:
 
 ```
     
-----
     
-<h1 align="center">Código</h1>
+# Código
 
 É possível inserir pedaços de código e destacar as sintaxes de alguma linguagem de programação específica altomaticamente.
 
@@ -605,4 +605,4 @@ Obs.: A tag <br> foi inserida pois, sem ela, o código ficaria todo em uma únic
 
 ----
 
-[Voltar para o inicio](/README.md)
+Ir para: [Início](/README.md)

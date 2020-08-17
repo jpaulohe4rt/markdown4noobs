@@ -5,4 +5,4 @@
 
 <hr>
 
-[Voltar para o inicio](/README.md), [Próxima Seção](./2-Ambiente.md)
+Ir para: [Início](/README.md) | Ir para: [2-Ambiente](./2-Ambiente.md)
