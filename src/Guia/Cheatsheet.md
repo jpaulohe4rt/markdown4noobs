@@ -632,7 +632,22 @@ Obs.: A tag <br> foi inserida pois, sem ela, o código ficaria todo em uma únic
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/he4rt/4noobs?style=social)
 
-Obs: Você pode adicionar logo e personalizar as cores.
+## Personalização
+
+Para personalizar, o Shield, não pode estar como `social`, como exemplo acima, mas com o style `Plastic`, `flat`, `flat-square` e ou `for-the-badge`, porque somente eles podem sofrer influência das edições.
+
+### Observe os 2 exemplos:
+
+**Sem Edição**:
+
+![GitHub Repo stars](https://img.shields.io/github/stars/he4rt/4noobs?style=flat-square)
+
+**Com Edição**:
+
+![GitHub Repo stars](https://img.shields.io/github/stars/he4rt/4noobs?color=red&label=Estrelas&logo=github&logoColor=black&style=flat-square)
+
+
+<img src="https://user-images.githubusercontent.com/69097449/129429871-1576182e-cc3b-4420-a84d-c54e6ab3499d.png" alt="edicao-shield"></img>
 
 ----
 
