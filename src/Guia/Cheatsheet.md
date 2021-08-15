@@ -18,6 +18,7 @@
 12. [Emoji](#Emoji)
 13. [Lista de Tarefas](#Lista-de-Tarefas)
 14. [Código](#Código)
+15. [Shields](#Shields)
 
 ----
 
@@ -603,6 +604,52 @@ Obs.: A tag <br> foi inserida pois, sem ela, o código ficaria todo em uma únic
 ```
  
 
+
+
+# Shields
+
+É possível colocar Shields do [Shield.io](https://shields.io/) para transmitir informações de um modo curto e direto. Além de deixar o repositório com uma cara mais moderna.
+
+## Veja Como Fazer:
+
+### 1 - Gere o Shield:
+
+<img src="https://user-images.githubusercontent.com/69097449/129428392-4e91b0af-7bbf-4b78-a0fe-16b7fd87ebb2.png" alt="imagem-Shield-teste"></img>
+
+### 2 - Pegue o HTML ou Markdown:
+
+**Markdown**:
+
+```md
+![GitHub Repo stars](https://img.shields.io/github/stars/he4rt/4noobs?style=social)
+```
+
+**HTML**:
+
+```html
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/he4rt/4noobs?style=social">
+```
+
+![GitHub Repo stars](https://img.shields.io/github/stars/he4rt/4noobs?style=social)
+
+## Personalização
+
+Para personalizar, o Shield, não pode estar como `social`, como exemplo acima, mas com o style `Plastic`, `flat`, `flat-square` e ou `for-the-badge`, porque somente eles podem sofrer influência das edições.
+
+### Observe os 2 exemplos:
+
+**Sem Edição**:
+
+![GitHub Repo stars](https://img.shields.io/github/stars/he4rt/4noobs?style=flat-square)
+
+**Com Edição**:
+
+![GitHub Repo stars](https://img.shields.io/github/stars/he4rt/4noobs?color=red&label=Estrelas&logo=github&logoColor=black&style=flat-square)
+
+
+<img src="https://user-images.githubusercontent.com/69097449/129429871-1576182e-cc3b-4420-a84d-c54e6ab3499d.png" alt="edicao-shield"></img>
+
 ----
+
 
 Ir para: [Início](/README.md)
