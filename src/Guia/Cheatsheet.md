@@ -97,6 +97,16 @@ Em Markdown:
 `www.heartdevs.com`
 ```
 
+Você também pode criar referências à links caso utilize ele mais de uma vez.
+```markdown
+[Eu sou um link][1]
+[Eu sou o mesmo link!][1]
+
+<!-- Mais markdown ... -->
+
+[1]: https://google.com
+```
+
     
 # Imagens 
 
