@@ -107,6 +107,12 @@ Você também pode criar referências à links caso utilize ele mais de uma vez.
 [1]: https://google.com
 ```
 
+Não só com links, você também pode fazer isso com uma frase ou até uma palavra!
+```markdown
+Eu amo o projeto [4noobs]!
+
+[4noobs]: https://github.com/he4rt/4noobs
+```
     
 # Imagens 
 
