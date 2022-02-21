@@ -578,7 +578,7 @@ Em Markdown:
     
 # Código
 
-É possível inserir pedaços de código e destacar as sintaxes de alguma linguagem de programação específica altomaticamente.
+É possível inserir pedaços de código e destacar as sintaxes de alguma linguagem de programação específica automaticamente.
 
 ----
 
