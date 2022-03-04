@@ -19,6 +19,7 @@
 13. [Lista de Tarefas](#Lista-de-Tarefas)
 14. [Código](#Código)
 15. [Shields](#Shields)
+16. [Elemento de Detalhes](#Elemento-de-Detalhes) 
 
 ----
 
@@ -583,6 +584,7 @@ Em Markdown:
 ----
 
 ## Veja como fazer:
+
 Código na linguagem de programação C:
 ```c
 #include <stdio.h>
@@ -664,6 +666,44 @@ Para personalizar, o Shield, não pode estar como `social`, como exemplo acima, 
 
 
 <img src="https://user-images.githubusercontent.com/69097449/129429871-1576182e-cc3b-4420-a84d-c54e6ab3499d.png" alt="edicao-shield"></img>
+
+# Elemento de Detalhes
+
+É possível adicionar `<details>` `<summary>` para criar uma ferramenta onde o usuário irá obter informações adicionais.
+
+## Veja como fazer isso:
+
+<details><summary>Qual é a melhor comunidade de devs?</summary>He4rt Developers :purple_heart:!</details>
+
+```html
+<details><summary>Qual é a melhor comunidade de devs?</summary>He4rt Developers :purple_heart:!</details>
+```
+
+## Outro exemplo:
+
+<details>
+<summary>Lista de Linguagens</summary>
+
+* Java
+* JavaScript
+* C
+* Python
+* PHP
+
+</details>
+
+```markdown
+<details>
+<summary>Lista de Linguagens</summary>
+
+* Java
+* JavaScript
+* C
+* Python
+* PHP
+
+</details>
+```
 
 ----
 
