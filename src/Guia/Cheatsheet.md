@@ -4,22 +4,23 @@
 
 <h1 align="center"> Sumário </h1>
 
-1. [Headers - Cabeçalhos](#headers---cabeçalhos)
-2. [Links](#Links)
-3. [Imagens](#Imagens)
-4. [Ênfase](#Ênfase)
-5. [Quebra de Linha](#Quebra-de-Linha)
-6. [Parágrafo](#Parágrafo)
-7. [Blackquotes](#Blackquotes)
-8. [Lista Ordenadas](#Lista-Ordenadas)
-9. [Lista Desordenadas](#Lista-Desordenadas)
-10. [Tabela](#Tabela)
-11. [Alinhamento em Tabela](#Alinhamento-Tabela)
-12. [Emoji](#Emoji)
-13. [Lista de Tarefas](#Lista-de-Tarefas)
-14. [Código](#Código)
-15. [Shields](#Shields)
-16. [Elemento de Detalhes](#Elemento-de-Detalhes) 
+01. [Headers - Cabeçalhos](#headers---cabeçalhos)
+00. [Links](#Links)
+00. [Imagens](#Imagens)
+00. [Ênfase](#Ênfase)
+00. [Quebra de Linha](#Quebra-de-Linha)
+00. [Parágrafo](#Parágrafo)
+00. [Blackquotes](#Blackquotes)
+00. [Lista Ordenadas](#Lista-Ordenadas)
+00. [Lista Ordenadas Simplificada](#Lista-Ordenadas-Simplificada)
+00. [Lista Desordenadas](#Lista-Desordenadas)
+00. [Tabela](#Tabela)
+00. [Alinhamento em Tabela](#Alinhamento-Tabela)
+00. [Emoji](#Emoji)
+00. [Lista de Tarefas](#Lista-de-Tarefas)
+00. [Código](#Código)
+00. [Shields](#Shields)
+00. [Elemento de Detalhes](#Elemento-de-Detalhes) 
 
 ----
 
@@ -408,6 +409,35 @@ HTML:
     </ol>
     <li>Terceiro item</li>
 </ol>
+```
+
+# Lista Ordenadas Simplificada
+
+Uma outra maneira de fazer uma lista ordenada é utilizando os valores como 00.  
+**Não funciona com identação**
+
+00. Primeiro item
+00. Segundo item  
+00. Terceiro item
+
+```
+Markdown:
+00. Primeiro item
+00. Segundo item  
+00. Terceiro item
+```
+
+Caso deseje que comece com um valor que não seja 0, basta definir o primeiro com o valor desejado, como o exemplo a seguir.
+
+01. Primeiro item
+00. Segundo item  
+00. Terceiro item
+
+```
+Markdown:
+01. Primeiro item
+00. Segundo item  
+00. Terceiro item
 ```
 
 ### Observações:
