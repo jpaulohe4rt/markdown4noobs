@@ -414,7 +414,6 @@ HTML:
 # Lista Ordenadas Simplificada
 
 Uma outra maneira de fazer uma lista ordenada é utilizando os valores como 00.  
-**Não funciona com identação**
 
 00. Primeiro item
 00. Segundo item  
@@ -429,31 +428,51 @@ Markdown:
 
 Caso deseje que comece com um valor que não seja 0, basta definir o primeiro com o valor desejado, como o exemplo a seguir.
 
-01. Primeiro item
+02. Primeiro item
 00. Segundo item  
 00. Terceiro item
 
 ```
 Markdown:
-01. Primeiro item
+02. Primeiro item
 00. Segundo item  
 00. Terceiro item
 ```
+
+**Identação**
+01. Primeiro item
+    01. Primeiro item identado  
+    00. Segundo item identado  
+        1. Primeiro item identado pela segunda vez
+        0. Segundo item identado pela segunda vez
+    00. Terceiro item identado
+00. Segundo item
+
+```
+Markdown:
+01. Primeiro item
+    01. Primeiro item identado  
+    00. Segundo item identado  
+        1. Primeiro item identado pela segunda vez
+        0. Segundo item identado pela segunda vez
+    00. Terceiro item identado
+00. Segundo item
+```
+
+**Observação:** Mesmo que você utilize números no markdown, o github vai transforma a primeira identação em algarismos romanos e a segunda em letras.
 
 ### Observações:
 
 Mesmo que o número dos índices do markdown estejam incorretos, é exibido a ordem da forma correta.  
 Exemplo:  
 1. Primeiro item
-3. Segundo item
-    1. Primeiro item indentado
+4. Segundo item
 2. Terceiro item
 
 ```
 Markdown:
 1. Primeiro item
-3. Segundo item
-    1. Primeiro item indentado
+4. Segundo item
 2. Terceiro item
 ```
 
