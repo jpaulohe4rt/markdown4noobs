@@ -21,6 +21,7 @@
 00. [Código](#Código)
 00. [Shields](#Shields)
 00. [Elemento de Detalhes](#Elemento-de-Detalhes) 
+00. [Contas de matemática](Contas-de-Matematica)
 
 ----
 
@@ -754,7 +755,27 @@ Para personalizar, o Shield, não pode estar como `social`, como exemplo acima, 
 </details>
 ```
 
-----
+# Contas de matemática
 
+É possível escrever equações matemáticas em markdown utilizando $$. Segue o exemplo abaixo:
+
+$$
+f(x) = x² + 3x + 9
+$$
+
+## Equações mais sofisticadas
+
+Algumas vezes a idéia é utilizar alguns símbolos e letras que não existem no nosso alfabeto convencional. Nesse caso é possível utilizar a linguagem [Latex](https://www.latex-project.org/). Vamos ao uso dele:
+
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
+```math
+\operatorname{y} = \alpha + \beta_{1}(\operatorname{x}) + \epsilon
+```
+
+Perceba que há vários símbolos e comandos para a equação desejada, isso porque estamos lidando com Latex. Para saber mais, acesse [aqui](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) a documentação.
+
+----
 
 Ir para: [Início](/README.md)
