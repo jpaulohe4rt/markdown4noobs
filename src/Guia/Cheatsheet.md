@@ -765,11 +765,13 @@ $$
 
 ## Equações mais sofisticadas
 
-Nesse caso é possível utilizar a linguagem [Latex](https://www.latex-project.org/). Vamos ao uso dele:
+Algumas vezes a idéia é utilizar alguns símbolos e letras que não existem no nosso alfabeto convencional. Nesse caso é possível utilizar a linguagem [Latex](https://www.latex-project.org/). Vamos ao uso dele:
 
 ```math
 SE = \frac{\sigma}{\sqrt{n}}
+\operatorname{y} = \alpha + \beta_{1}(\operatorname{x}) + \epsilon
 ```
+Perceba que há vários símbolos e comandos para a equação desejada, isso porque estamos lidando com Latex. Para saber mais, acesse [aqui](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) a documentação.
 
 ----
 
