@@ -21,6 +21,7 @@
 00. [Código](#Código)
 00. [Shields](#Shields)
 00. [Elemento de Detalhes](#Elemento-de-Detalhes) 
+00. [Contas de matemática](Contas-de-Matematica)
 
 ----
 
@@ -753,6 +754,14 @@ Para personalizar, o Shield, não pode estar como `social`, como exemplo acima, 
 
 </details>
 ```
+
+# Contas de matemática
+
+É possível escrever equações matemáticas em markdown utilizando $$. Se a equação for *inline*, basta escrever: $$f(x) = \x² + 3x + 9$$. Caso seja em bloco, é só escrever:
+
+$$
+f(x) = \x² + 3x + 9
+$$
 
 ----
 
