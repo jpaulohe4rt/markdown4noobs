@@ -757,10 +757,12 @@ Para personalizar, o Shield, não pode estar como `social`, como exemplo acima, 
 
 # Contas de matemática
 
-É possível escrever equações matemáticas em markdown utilizando $$. Se a equação for *inline*, basta escrever: $$f(x) = \x² + 3x + 9$$. Caso seja em bloco, é só escrever:
+É possível escrever equações matemáticas em markdown utilizando $$. Se a equação for *inline*, basta escrever: $$f(x) = \x² + 3x + 9$$. 
+
+Caso queira em bloco, é só escrever:
 
 $$
-f(x) = \x² + 3x + 9
+f(x) = x² + 3x + 9
 $$
 
 ----
