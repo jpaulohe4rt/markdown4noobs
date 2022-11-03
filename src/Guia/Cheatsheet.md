@@ -770,7 +770,7 @@ Algumas vezes a idéia é utilizar alguns símbolos e letras que não existem no
 ```math
 SE = \frac{\sigma}{\sqrt{n}}
 ```
-```
+```math
 \operatorname{y} = \alpha + \beta_{1}(\operatorname{x}) + \epsilon
 ```
 
