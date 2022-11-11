@@ -21,6 +21,7 @@
 00. [Código](#Código)
 00. [Shields](#Shields)
 00. [Elemento de Detalhes](#Elemento-de-Detalhes) 
+00. [Mapa](#Mapa)
 
 ----
 
@@ -754,6 +755,98 @@ Para personalizar, o Shield, não pode estar como `social`, como exemplo acima, 
 </details>
 ```
 
+# Mapa
+
+É possível adicionar um Mapa em seu markdown, Para criar um mapa basta adicionar um JSON com as coordernadas, que pode ser criado pelo site [GeoJSON](https://geojson.io/).
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -6.878466286287704,
+              43.26369041932804
+            ],
+            [
+              -6.701404805391263,
+              39.69503598185034
+            ],
+            [
+              -6.651329210701363,
+              36.87979740184866
+            ],
+            [
+              -1.3529233719869467,
+              37.769974225157924
+            ],
+            [
+              1.886378635135486,
+              42.37351821794945
+            ],
+            [
+              -6.878466286287704,
+              43.26369041932804
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+```
+## Veja como fazer isso:
+
+```
+Markdown:
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -6.878466286287704,
+              43.26369041932804
+            ],
+            [
+              -6.701404805391263,
+              39.69503598185034
+            ],
+            [
+              -6.651329210701363,
+              36.87979740184866
+            ],
+            [
+              -1.3529233719869467,
+              37.769974225157924
+            ],
+            [
+              1.886378635135486,
+              42.37351821794945
+            ],
+            [
+              -6.878466286287704,
+              43.26369041932804
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+```
 ----
 
 
