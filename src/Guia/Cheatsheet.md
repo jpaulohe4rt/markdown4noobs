@@ -21,6 +21,7 @@
 00. [Código](#Código)
 00. [Shields](#Shields)
 00. [Elemento de Detalhes](#Elemento-de-Detalhes) 
+00. [Mapa](#Mapa)
 
 ----
 
@@ -754,6 +755,90 @@ Para personalizar, o Shield, não pode estar como `social`, como exemplo acima, 
 </details>
 ```
 
+# Mapa
+
+É possível adicionar um Mapa em seu markdown, Para criar um mapa basta adicionar um JSON com as coordernadas, que pode ser criado pelo site [GeoJSON](https://geojson.io/).
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -47.310961067570304,
+              -16.04845618945251
+            ],
+            [
+              -47.310961067570304,
+              -15.500907566230353
+            ],
+            [
+              -48.27721676371124,
+              -15.500907566230353
+            ],
+            [
+              -48.27721676371124,
+              -16.04845618945251
+            ],
+            [
+              -47.310961067570304,
+              -16.04845618945251
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+```
+## Veja como fazer isso:
+
+```
+Markdown:
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -47.310961067570304,
+              -16.04845618945251
+            ],
+            [
+              -47.310961067570304,
+              -15.500907566230353
+            ],
+            [
+              -48.27721676371124,
+              -15.500907566230353
+            ],
+            [
+              -48.27721676371124,
+              -16.04845618945251
+            ],
+            [
+              -47.310961067570304,
+              -16.04845618945251
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+```
 ----
 
 
