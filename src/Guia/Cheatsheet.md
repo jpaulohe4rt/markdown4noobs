@@ -22,6 +22,7 @@
 00. [Shields](#Shields)
 00. [Elemento de Detalhes](#Elemento-de-Detalhes) 
 00. [Mapa](#Mapa)
+00. [Diagramas Mermaid](#Diagramas-Mermaid)
 
 ----
 
@@ -839,6 +840,35 @@ Markdown:
   ]
 }
 ```
+
+# Diagramas Mermaid
+
+O GitHub renderiza diagramas Mermaid automaticamente quando o código é colocado em um bloco com a linguagem `mermaid`.
+
+Para conhecer a sintaxe e os diferentes tipos de diagramas, como fluxogramas, diagramas de sequência e de classes, consulte a [documentação oficial do Mermaid](https://mermaid.js.org/intro/).
+
+Exemplo de fluxograma:
+
+```mermaid
+flowchart TD
+    A[Início] --> B{Markdown válido?}
+    B -- Sim --> C[Publicar no GitHub]
+    B -- Não --> D[Corrigir a sintaxe]
+    D --> B
+```
+
+Sintaxe usada:
+
+````markdown
+```mermaid
+flowchart TD
+    A[Início] --> B{Markdown válido?}
+    B -- Sim --> C[Publicar no GitHub]
+    B -- Não --> D[Corrigir a sintaxe]
+    D --> B
+```
+````
+
 ----
 
 
